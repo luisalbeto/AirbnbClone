@@ -5,6 +5,7 @@ import Search from "./Search";
 import UserMenu from "./UserMenu";
 import React from "react";
 import { safeUser } from "@/app/types";
+import Categories from "./Categories";
 
 
 interface NavbarProps{
@@ -34,6 +35,7 @@ return (
         </div>
       </Container>
     </div>
+    <Categories/>
   </div>
     );
 }
