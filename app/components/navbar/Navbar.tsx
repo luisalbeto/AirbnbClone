@@ -9,7 +9,7 @@ import Categories from "./Categories";
 
 
 interface NavbarProps{
-  currentUser?: safeUser | null;
+  currentUser?:  safeUser | null;
 
 }
 
