@@ -4,12 +4,12 @@ import Logo from "./Logo";
 import Search from "./Search";
 import UserMenu from "./UserMenu";
 import React from "react";
-import { safeUser } from "@/app/types";
+import { SafeUser } from "@/app/types";
 import Categories from "./Categories";
 
 
 interface NavbarProps{
-  currentUser?:  safeUser | null;
+  currentUser?:  SafeUser | null;
 
 }
 
